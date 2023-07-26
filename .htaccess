@@ -1,0 +1,8 @@
+RewriteEngine On 
+#ErrorDocument 404 
+RewriteRule ^home$ index.php
+
+RewriteRule ^resume$ resume.php
+RewriteRule ^work$ work.php
+RewriteRule ^contact$ contact.php
+
